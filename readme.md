@@ -1,6 +1,9 @@
 # School Management System (Enterprise Edition)
 Another School Management System build with laravel and PHP 7.
 
+# Discussion Chanel
+[You can join here](https://discord.gg/XsZzvDw)
+
 # Features
 - Academic Year manage
 - Academic Calendar Setup
