@@ -21,7 +21,7 @@ class HomeController extends Controller
 {
     public function home()
     {
-
+        return redirect('login');
         $sliders = Slider::orderBy('order','asc')->get()->take(10);
 
         $aboutContent = AboutContent::first();

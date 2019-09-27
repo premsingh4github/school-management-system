@@ -15,7 +15,6 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         echo 'seeding users...', PHP_EOL;
-
         $user= User::create(
             [
                 'name' => 'Mr. admin',
@@ -25,13 +24,11 @@ class UsersTableSeeder extends Seeder
                 'remember_token' => null,
             ]
         );
-
        UserRole::create(
            [
                'user_id' => $user->id,
                'role_id' => AppHelper::USER_ADMIN
            ]
        );
-
     }
 }

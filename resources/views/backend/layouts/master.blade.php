@@ -93,7 +93,7 @@
 <!-- / footer -->
 
     <!-- page aside right side bar -->
-@include('backend.partial.rightsidebar')
+{{--@include('backend.partial.rightsidebar')--}}
 <!-- / page aside right side bar -->
 
 </div>
