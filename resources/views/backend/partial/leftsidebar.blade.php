@@ -191,7 +191,7 @@
       </li>
       @endnotrole
       @role('Admin')
-      <li class="treeview">
+      <li class="treeview hidden">
         <a href="#">
           <i class="fa fa-user-secret"></i>
           <span>Administrator</span>
@@ -248,14 +248,14 @@
       </li>
       @endrole
       @can('user.index')
-        <li>
+        <li class="hidden">
           <a href="{{ URL::route('user.index') }}">
             <i class="fa fa-users"></i> <span>Users</span>
           </a>
         </li>
       @endcan
 
-      <li class="treeview">
+      <li class="treeview hidden">
         <a href="#">
           <i class="fa fa-file-pdf-o"></i>
           <span>Reports</span>
@@ -324,7 +324,7 @@
       </li>
 
       @role('Admin')
-      <li class="treeview">
+      <li class="treeview hidden">
         <a href="#">
           <i class="fa fa-cogs"></i>
           <span>Settings</span>
