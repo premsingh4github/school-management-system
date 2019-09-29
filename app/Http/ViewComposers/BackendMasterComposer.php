@@ -27,8 +27,8 @@ class BackendMasterComposer
         }
 
 
-        $view->with('maintainer', 'ShanixLab');
-        $view->with('maintainer_url', 'http://shanixlab.com');
+        $view->with('maintainer', 'OMNIITWORD');
+        $view->with('maintainer_url', 'http://omniitworld.com');
         $view->with('majorVersion', '2');
         $view->with('minorVersion', '0');
         $view->with('appSettings', $appSettings);

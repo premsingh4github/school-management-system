@@ -223,6 +223,7 @@ class UserController extends Controller
      */
     public function dashboard(Request $request)
     {
+
         $userRoleId = session('user_role_id',0);
         $teachers = 0;
         $employee = 0;
